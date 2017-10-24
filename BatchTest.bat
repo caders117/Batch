@@ -5,6 +5,7 @@ REM Playing around with Batch
 color 07
 set /p name="What is your name? "
 echo Hi %name%
+echo new & echo.line
 :start
 set /p ans="What would you like to do? (A)dd or (S)ubtract: "
 echo %ans%
