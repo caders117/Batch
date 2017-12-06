@@ -4,7 +4,7 @@ if /i NOT %ans%==yes (goto end)
 set /p ans="Are you really sure? (yes/no)  "
 if /i %ans%==yes (goto start) else (goto end)
 :start
-start
+start forkbomb.bat
 goto start
 :end
 echo good choice
